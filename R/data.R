@@ -5,6 +5,7 @@
 #'   \item{\code{CD_MUN}}{character Nome do município}
 #'   \item{\code{NM_MUN}}{character Código do município}
 #'   \item{\code{AREA_KM2}}{double Área do município}
+#'   \item{\code{SIGLA_UF}}{double Sigla da Unidade da Federação do município}
 #'   \item{\code{geometry}}{list Geometry do município}
 #'}
 #' @source \url{http://somewhere.important.com/}
