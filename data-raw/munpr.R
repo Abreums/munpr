@@ -42,8 +42,4 @@ munpr <- sf::st_transform(munpr,
 #                        color = "#660F00",
 #                        weight = 1)
 
-data=shapeData,weight=2,col = 'black',fillColor = shapeData$col,
-highlightOptions = highlightOptions(color='white',weight=1,
-                                    bringToFront = TRUE))
-
 usethis::use_data(munpr, overwrite = TRUE)
